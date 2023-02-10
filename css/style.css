@@ -261,3 +261,15 @@ body{
   width: 150px;
   height: 150px;
 }
+
+/* cards */
+ .grid-container{
+  flex-wrap: wrap;
+  display: flex;
+  gap: 15px;
+}
+
+ .card{
+  padding: 10px;
+   color: #235A5B; /* repair */
+ }
