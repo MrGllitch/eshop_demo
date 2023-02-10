@@ -228,3 +228,36 @@ body{
     background-color: #201f22;
     color: #ffffff;
   }
+
+  #carouselExampleFade {
+    /* any dimensions are fine, it can be responsive with max-width */
+    width: auto;
+    height: auto;
+    max-height: 60vh;
+  }
+  
+
+  .carousel-inner{
+    height: 100%;
+    max-height: 60vh;
+  }
+
+  /* .carousel-item.active,  */
+  .carousel-item{
+    max-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .carousel-item.active{
+    display: flex;
+  }
+
+.img-magnifier-glass {
+  position: fixed;
+  margin-left: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+}
