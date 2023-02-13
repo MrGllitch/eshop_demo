@@ -267,6 +267,7 @@ body{
   flex-wrap: wrap;
   display: flex;
   gap: 15px;
+  background-color: #0F131B;
 }
 
  .card{
