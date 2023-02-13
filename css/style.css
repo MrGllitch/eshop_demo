@@ -271,5 +271,30 @@ body{
 
  .card{
   padding: 10px;
-   color: #235A5B; /* repair */
+  background: rgb(31,99,101);
+  background: linear-gradient(180deg, rgba(31,99,101,1) 68%, rgba(255,255,255,1) 99%);
+  border: rgb(31,99,101) !important;
+ }
+ .card-body{
+  background: rgba(255,255,255, 0.5);
+  border-radius: 20px;
+ }
+
+ .card-body > .row > .col{
+  align-self: flex-end;
+ }
+ .card-img{
+  margin-bottom: 5px;
+ }
+
+ .card-img:hover{
+  transform: translateY(-7px);
+ }
+
+ .fa-plus{
+  transition: transform 0.3s, font-size 0.3s;;
+ }
+ .fa-plus:hover{
+  transform: rotate(360deg);
+  font-size: 1.2em;
  }
